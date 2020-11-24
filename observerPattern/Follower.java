@@ -17,7 +17,7 @@ public class Follower implements Observer{
 	}
 
 	public void update(String status) {
-		System.out.println(followerName+ ": Channel Is " + status);
+		System.out.println(followerName + ", here is your update: " + status);
 	}
 	
 	public void play() {
